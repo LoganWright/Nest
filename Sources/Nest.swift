@@ -1,6 +1,6 @@
 /// Represents a HTTP Header, Key and Value
 public typealias Header = (String, String)
-public typealias Byte = UInt8
+public typealias Byte = Int8
 
 /// Represents a HTTP request or response body
 public protocol PayloadType {
