@@ -1,11 +1,11 @@
 /// Represents a HTTP Header, Key and Value
 public typealias Header = (String, String)
-
+public typealias Byte = UInt8
 
 /// Represents a HTTP request or response body
 public protocol PayloadType {
     /// Returns the next byte in the payload
-    mutating func next() -> Int8?
+    mutating func next() -> Byte?
 }
 
 
